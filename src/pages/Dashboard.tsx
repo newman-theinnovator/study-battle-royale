@@ -1,5 +1,6 @@
 import { auth } from "../lib/firebase";
 import { signOut } from "firebase/auth";
+// import { playSound } from "../components/SoundPlayer";
 
 export default function Dashboard() {
   const user = auth.currentUser!;
